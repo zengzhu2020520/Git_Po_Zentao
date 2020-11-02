@@ -22,6 +22,7 @@ class Alawys_Action:
         self.login_page.input_password('newdream123')
         self.login_page.click_login()
         logger.err_info('用户名或者密码不正确')
+        return self.login_page.get_alter_message()
 
     def login(self):
         self.login_page.input_username(read_conf.get_conf_username())

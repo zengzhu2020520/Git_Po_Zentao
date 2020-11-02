@@ -16,6 +16,7 @@ class Login_Test(unittest.TestCase):
         self.action = Alawys_Action()
         self.driver = self.action.driver
         self.base_page = BasePage(self.driver)
+        self.base_page.set_browner_max_windows()
 
     def tearDown(self) -> None:
         self.base_page.wait()
@@ -27,12 +28,14 @@ class Login_Test(unittest.TestCase):
             EC.title_contains('禅道')), '登录失败')
 
     def test_login_faild(self):
-        self.action.login_failed()
-        self.assertTrue(WebDriverWait(self.driver, 5).until(EC.alert_is_present()),
-                        '测试用例失败，没有弹窗')
-        alter = self.driver.switch_to.alert
-        print(alter.text)
-        logger.err_info('登录失败，失败原因为：%s' % alter.text)
+        action_alter = self.action.login_failed()
+        # self.assertTrue(WebDriverWait(self.driver, 5).until(EC.alert_is_present()),
+        #                 '测试用例失败，没有弹窗')
+        # alter = self.driver.switch_to.alert
+        # print(alter.text)
+        self.alter_text = self.base_page.get_alter_message()
+        self.assertEqual(action_alter,self.alter_text)
+        logger.err_info('登录失败，失败原因为：%s' % self.alter_text)
 
 
 if __name__ == '__main__':

@@ -297,3 +297,193 @@
 2020-11-02 17:22:59,414-log.log_function-INFO-正确登录
 2020-11-02 17:22:59,414-log.log_function-ERROR-用户名或者密码不正确
 2020-11-02 17:22:59,925-log.log_function-ERROR-登录失败，失败原因为：登录失败，请检查您的用户名或密码是否填写正确。
+2020-11-02 20:42:03,350-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="cc17858779f7fdf18670c95a4ddbe9a5", element="df159175-3a93-418b-9585-7ee0bdfedd2b")>定位成功
+2020-11-02 20:42:03,417-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:42:03,418-log.log_function-INFO-正确输入用户名test02
+2020-11-02 20:42:03,443-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="cc17858779f7fdf18670c95a4ddbe9a5", element="8378f2ce-24f5-45e0-baf9-d65ba6bc1a65")>定位成功
+2020-11-02 20:42:03,574-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:42:03,574-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:42:03,598-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="cc17858779f7fdf18670c95a4ddbe9a5", element="f32d79e5-bbfd-4eb5-93f3-e178c9314cdd")>定位成功
+2020-11-02 20:42:03,673-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:42:03,673-log.log_function-INFO-正确登录
+2020-11-02 20:42:03,673-log.log_function-INFO-成功登录
+2020-11-02 20:42:18,151-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="94138d0f900dd17e2b9ef8c05f50250e", element="3dffcad3-1ef2-49f6-a791-1038a7727b4d")>定位成功
+2020-11-02 20:42:18,224-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:42:18,224-log.log_function-INFO-正确输入用户名test002
+2020-11-02 20:42:18,244-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="94138d0f900dd17e2b9ef8c05f50250e", element="79b5a804-7a31-4eca-ae62-f18d10c2e122")>定位成功
+2020-11-02 20:42:18,352-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:42:18,352-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:42:18,373-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="94138d0f900dd17e2b9ef8c05f50250e", element="c401843b-3071-40d4-8e3c-6631f3084392")>定位成功
+2020-11-02 20:42:18,454-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:42:18,455-log.log_function-INFO-正确登录
+2020-11-02 20:42:18,455-log.log_function-ERROR-用户名或者密码不正确
+2020-11-02 20:49:51,173-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="2dbd399e46ea26b7876a47da0b6dc9e4", element="d9232239-af1f-4c3e-9781-efbeca70bf80")>定位成功
+2020-11-02 20:49:51,242-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:49:51,242-log.log_function-INFO-正确输入用户名test02
+2020-11-02 20:49:51,260-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="2dbd399e46ea26b7876a47da0b6dc9e4", element="19a162af-3ee5-4457-a2fa-563c7aebd26b")>定位成功
+2020-11-02 20:49:51,383-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:49:51,383-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:49:51,410-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="2dbd399e46ea26b7876a47da0b6dc9e4", element="9f87af5c-23fe-4b65-8b3a-82b5a0e78877")>定位成功
+2020-11-02 20:49:51,482-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:49:51,482-log.log_function-INFO-正确登录
+2020-11-02 20:49:51,483-log.log_function-INFO-成功登录
+2020-11-02 20:50:07,018-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="650dd0a3daf76d897c573d6f3844cd96", element="4b7426e1-8af5-415f-9a13-ee9315228252")>定位成功
+2020-11-02 20:50:07,086-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:50:07,086-log.log_function-INFO-正确输入用户名test002
+2020-11-02 20:50:07,109-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="650dd0a3daf76d897c573d6f3844cd96", element="fd310a0a-2c93-4cde-8ec8-609d22722a0e")>定位成功
+2020-11-02 20:50:07,242-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:50:07,242-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:50:07,267-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="650dd0a3daf76d897c573d6f3844cd96", element="7b7c3926-51f0-45bf-a132-332b718d7268")>定位成功
+2020-11-02 20:50:07,346-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:50:07,346-log.log_function-INFO-正确登录
+2020-11-02 20:50:07,346-log.log_function-ERROR-用户名或者密码不正确
+2020-11-02 20:54:15,428-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="92e6091c774e0ccbcaa0569c29eeada5", element="a654854c-30fb-49e3-83a7-e4e8b139e20d")>定位成功
+2020-11-02 20:54:15,498-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:54:15,499-log.log_function-INFO-正确输入用户名test02
+2020-11-02 20:54:15,525-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="92e6091c774e0ccbcaa0569c29eeada5", element="8ef183b4-d325-4345-956f-3e645f8fb6ad")>定位成功
+2020-11-02 20:54:15,656-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:54:15,656-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:54:15,677-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="92e6091c774e0ccbcaa0569c29eeada5", element="97aa96e7-1fd7-4560-b6fe-eb5d6675b23d")>定位成功
+2020-11-02 20:54:15,748-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:54:15,748-log.log_function-INFO-正确登录
+2020-11-02 20:54:15,748-log.log_function-INFO-成功登录
+2020-11-02 20:54:30,532-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="d364e8341d570f09d15f69695b5208b7", element="ff95bef3-0dcf-4c76-afd2-f80df518b2cf")>定位成功
+2020-11-02 20:54:30,598-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:54:30,598-log.log_function-INFO-正确输入用户名test002
+2020-11-02 20:54:30,619-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="d364e8341d570f09d15f69695b5208b7", element="046aceed-f5dc-47d8-9711-d8cc2c96b9f1")>定位成功
+2020-11-02 20:54:30,726-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:54:30,727-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:54:30,746-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="d364e8341d570f09d15f69695b5208b7", element="65fd5c81-d662-488f-b679-e3ff64c4ac0c")>定位成功
+2020-11-02 20:54:30,823-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:54:30,824-log.log_function-INFO-正确登录
+2020-11-02 20:54:30,824-log.log_function-ERROR-用户名或者密码不正确
+2020-11-02 20:59:22,831-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="7a3ea9baac22d46a8aeef9a082dd8e1c", element="1be259e4-6582-423d-b4f9-6becdefe573e")>定位成功
+2020-11-02 20:59:22,892-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:59:22,892-log.log_function-INFO-正确输入用户名test02
+2020-11-02 20:59:22,910-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="7a3ea9baac22d46a8aeef9a082dd8e1c", element="106cda25-d985-4131-b5f1-f81ebb97c66a")>定位成功
+2020-11-02 20:59:23,020-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:59:23,020-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:59:23,046-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="7a3ea9baac22d46a8aeef9a082dd8e1c", element="10cbd288-bb23-456e-a554-636028cb186f")>定位成功
+2020-11-02 20:59:23,120-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:59:23,120-log.log_function-INFO-正确登录
+2020-11-02 20:59:23,120-log.log_function-INFO-成功登录
+2020-11-02 20:59:38,005-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="342f62352c257a13002711550fcf216a", element="287840cc-e7a8-4472-892d-3826bc24a217")>定位成功
+2020-11-02 20:59:38,071-log.log_function-INFO-用户输入框输入成功
+2020-11-02 20:59:38,072-log.log_function-INFO-正确输入用户名test002
+2020-11-02 20:59:38,092-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="342f62352c257a13002711550fcf216a", element="e58f61be-2f49-414f-8aa4-f1c9f8a6b957")>定位成功
+2020-11-02 20:59:38,202-log.log_function-INFO-密码输入框输入成功
+2020-11-02 20:59:38,202-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 20:59:38,222-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="342f62352c257a13002711550fcf216a", element="febf2b0b-7a69-4665-a0b5-2b28377808a5")>定位成功
+2020-11-02 20:59:38,295-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 20:59:38,295-log.log_function-INFO-正确登录
+2020-11-02 20:59:38,295-log.log_function-ERROR-用户名或者密码不正确
+2020-11-02 21:06:22,169-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="91a701abc9d55ed39546afb83e8d9c7d", element="7a16ccc1-ece8-47bb-871f-0b8196bc4fd8")>定位成功
+2020-11-02 21:06:22,242-log.log_function-INFO-用户输入框输入成功
+2020-11-02 21:06:22,242-log.log_function-INFO-正确输入用户名test02
+2020-11-02 21:06:22,268-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="91a701abc9d55ed39546afb83e8d9c7d", element="8a6de28a-1d9b-46a2-8c58-ff6e2d7e4797")>定位成功
+2020-11-02 21:06:22,396-log.log_function-INFO-密码输入框输入成功
+2020-11-02 21:06:22,397-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 21:06:22,425-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="91a701abc9d55ed39546afb83e8d9c7d", element="97a01669-9edf-4459-9b6b-a136a30b2650")>定位成功
+2020-11-02 21:06:22,503-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 21:06:22,503-log.log_function-INFO-正确登录
+2020-11-02 21:06:22,503-log.log_function-INFO-成功登录
+2020-11-02 21:06:38,148-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="6f134d709fa17e277c0e0e844d2ab347", element="30aada45-f32c-41cf-818f-ef660db20f9a")>定位成功
+2020-11-02 21:06:38,233-log.log_function-INFO-用户输入框输入成功
+2020-11-02 21:06:38,233-log.log_function-INFO-正确输入用户名test002
+2020-11-02 21:06:38,256-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="6f134d709fa17e277c0e0e844d2ab347", element="a76522bf-bd08-4a80-9ef0-16b452a325c4")>定位成功
+2020-11-02 21:06:38,372-log.log_function-INFO-密码输入框输入成功
+2020-11-02 21:06:38,372-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 21:06:38,392-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="6f134d709fa17e277c0e0e844d2ab347", element="65b9b84b-5f23-4611-8fde-4b196be63501")>定位成功
+2020-11-02 21:06:38,478-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 21:06:38,478-log.log_function-INFO-正确登录
+2020-11-02 21:06:38,478-log.log_function-ERROR-用户名或者密码不正确
+2020-11-02 21:56:34,701-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="8345163373e3edb04530ee369930ec28", element="fd9ab713-e4b5-47f6-bd47-4c3de78c3f3c")>定位成功
+2020-11-02 21:56:34,764-log.log_function-INFO-用户输入框输入成功
+2020-11-02 21:56:34,764-log.log_function-INFO-正确输入用户名test01
+2020-11-02 21:56:34,784-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="8345163373e3edb04530ee369930ec28", element="05f51b5e-0619-4740-8cd5-613e6e681c7d")>定位成功
+2020-11-02 21:56:34,899-log.log_function-INFO-密码输入框输入成功
+2020-11-02 21:56:34,899-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 21:56:34,918-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="8345163373e3edb04530ee369930ec28", element="99cc2691-6b4c-4244-bab1-6db3248e9fc8")>定位成功
+2020-11-02 21:56:34,988-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 21:56:34,989-log.log_function-INFO-正确登录
+2020-11-02 21:56:34,989-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 21:56:37,001-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="8345163373e3edb04530ee369930ec28", element="92c2b2d8-a41e-42dd-83bd-996e807c0a5f")>定位成功
+2020-11-02 21:56:42,117-log.log_function-INFO-元素<selenium.webdriver.remote.webelement.WebElement (session="8345163373e3edb04530ee369930ec28", element="725f1ff8-0ca6-4dc6-ba20-d3dc57689d4f")>定位成功
+2020-11-02 22:12:08,105-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:12:08,168-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:12:08,169-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:12:08,188-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:12:08,295-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:12:08,295-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:12:08,316-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:12:08,388-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:12:08,388-log.log_function-INFO-正确登录
+2020-11-02 22:12:08,388-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:14:31,823-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:14:31,886-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:14:31,886-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:14:31,904-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:14:32,008-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:14:32,008-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:14:32,027-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:14:32,095-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:14:32,095-log.log_function-INFO-正确登录
+2020-11-02 22:14:32,096-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:14:40,410-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:14:40,486-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:14:40,486-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:14:40,505-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:14:40,609-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:14:40,609-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:14:40,627-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:14:40,700-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:14:40,700-log.log_function-INFO-正确登录
+2020-11-02 22:14:40,700-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:14:42,083-log.log_function-INFO-元素我的信息定位成功
+2020-11-02 22:14:47,218-log.log_function-INFO-元素退出按钮定位成功
+2020-11-02 22:15:48,725-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:15:48,796-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:15:48,796-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:15:48,814-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:15:48,920-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:15:48,921-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:15:48,947-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:15:49,020-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:15:49,020-log.log_function-INFO-正确登录
+2020-11-02 22:15:49,020-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:15:56,527-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:15:56,600-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:15:56,600-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:15:56,620-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:15:56,716-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:15:56,717-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:15:56,733-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:15:56,832-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:15:56,832-log.log_function-INFO-正确登录
+2020-11-02 22:15:56,832-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:15:58,930-log.log_function-INFO-元素我的信息定位成功
+2020-11-02 22:16:04,045-log.log_function-INFO-元素退出按钮定位成功
+2020-11-02 22:25:24,425-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:25:24,488-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:25:24,488-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:25:24,506-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:25:24,618-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:25:24,618-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:25:24,637-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:25:24,702-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:25:24,702-log.log_function-INFO-正确登录
+2020-11-02 22:25:24,702-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:25:26,680-log.log_function-INFO-元素我的信息定位成功
+2020-11-02 22:25:31,798-log.log_function-INFO-元素退出按钮定位成功
+2020-11-02 22:25:59,986-log.log_function-INFO-元素用户输入框定位成功
+2020-11-02 22:26:00,048-log.log_function-INFO-用户输入框输入成功
+2020-11-02 22:26:00,049-log.log_function-INFO-正确输入用户名test01
+2020-11-02 22:26:00,070-log.log_function-INFO-元素密码输入框定位成功
+2020-11-02 22:26:00,176-log.log_function-INFO-密码输入框输入成功
+2020-11-02 22:26:00,176-log.log_function-INFO-正确输入用户名newdream123
+2020-11-02 22:26:00,201-log.log_function-INFO-元素登录按钮定位成功
+2020-11-02 22:26:00,277-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-02 22:26:00,277-log.log_function-INFO-正确登录
+2020-11-02 22:26:00,278-log.log_function-INFO-使用默认账号登录成功
+2020-11-02 22:26:02,244-log.log_function-INFO-元素我的信息定位成功
+2020-11-02 22:26:07,354-log.log_function-INFO-元素退出按钮定位成功

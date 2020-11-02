@@ -29,6 +29,7 @@ class BasePage:
     def close_brower(self):
         self.driver.quit()
 
+
     def set_browner_max_windows(self):
         self.driver.maximize_window()
 
@@ -53,10 +54,10 @@ class BasePage:
             locate_type = By.NAME
         elif ele_locate_type == 'class':
             locate_type = By.CSS_SELECTOR
-        element = WebDriverWait(self.driver, ele_time_out).until(
+        element = WebDriverWait(self.driver, 5).until(
             lambda x: x.find_element(locate_type, ele_locate_value))
         if element:
-            logger.log_info('元素%s定位成功' % element)
+            logger.log_info('元素%s定位成功' % ele_infos['elemen_name'])
         return element
 
     def click(self, ele_infos):
@@ -93,15 +94,16 @@ class BasePage:
         ActionChains(self.driver).click_and_hold(element).pause(senconds).perform()
 
     # 弹出窗的封装
-    def get_alter_message(self, time_ou=time_out_conf, action='accept'):
-        if WebDriverWait(self.driver, time_ou).until(EC.alert_is_present()):
-            alter = self.driver.swith_to.alter()
-            alter_massage = alter.text
-            if action == 'accept':
-                alter.accept()
-            else:
-                alter.dismiss()
-        return alter_massage
+    def get_alter_message(self, time_ou=5, action='accept'):
+        WebDriverWait(self.driver, time_ou).until(EC.alert_is_present())
+        self.wait(5)
+        alter = self.driver.swith_to.alter
+        alter_test = alter.text
+        if action == 'accept':
+            alter.accept()
+        else:
+            alter.dismiss()
+        return alter_test
 
     # 切换句柄的封装
     def switch_to_windows_by_title(self, title):
