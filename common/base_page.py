@@ -35,11 +35,11 @@ class BasePage:
     def set_browner_min_windows(self):
         self.driver.minimize_window()
 
-    def implicity_wait(self, time_out):
-        self.driver.implicitly_wait(time_out_conf)
+    def implicity_wait(self, time_out=5):
+        self.driver.implicitly_wait(time_out)
 
-    def wait(self, time_out):
-        time.sleep(time_out_conf)
+    def wait(self, time_out=5):
+        time.sleep(time_out)
 
     def find_elements(self, ele_infos):
         ele_locate_type = ele_infos['locate_type']

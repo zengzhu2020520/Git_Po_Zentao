@@ -7,9 +7,10 @@ from log.log_function import logger
 
 
 class MainPage(object):
-    def __init__(self):
+    def __init__(self, driver):
         # 把界面的控件元素作为属性
-        self.login_page = LoginPage(GetBrower().get_brower_driver())
+        self.driver = driver
+        self.login_page = LoginPage(self.driver)
         self.driver = self.login_page.driver
         self.login_page.open_url(read_conf.get_conf_URL_path())
         self.login_page.input_username('test01')
@@ -44,8 +45,7 @@ class MainPage(object):
 
 
 if __name__ == '__main__':
-    # driver = BasePage().driver
-    mainpage = MainPage()
+    mainpage = MainPage(GetBrower().get_brower_driver())
     company_name = mainpage.get_company_name()
     print(company_name)
     mainpage.goto_product()

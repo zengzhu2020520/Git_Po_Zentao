@@ -31,6 +31,12 @@ class ReadConf:
     def get_conf_log_path(self):
         return self.__get_conf_value('default', 'log_path')
 
+    def get_conf_username(self):
+        return self.__get_conf_value('default', 'username')
+
+    def get_conf_password(self):
+        return self.__get_conf_value('default', 'password')
+
 
 read_conf = ReadConf()
 if __name__ == '__main__':
