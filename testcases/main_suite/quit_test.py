@@ -1,22 +1,25 @@
 import unittest, time
 from selenium.webdriver.support import expected_conditions as EC
-from action.login_in import Alawys_Action
 from action.quit_action import QiutLogin
-from common.base_page import BasePage
+from common.selenium_base_case import SeleniumBaseCase
+from action.login_in import Alawys_Action
 
 
-# from common.base_page import BasePage
-class QuitBrower(unittest.TestCase):
+class QuitBrower(SeleniumBaseCase):
     def setUp(self) -> None:
-        self.quit_brower = QiutLogin()
-        self.driver = self.quit_brower.driver
-        self.base_page = BasePage(self.driver)
+        super().setUp()
+        self.quit_brower = QiutLogin(self.driver)
+        # self.driver = self.quit_brower.driver
+        # self.base_page = BasePage(self.driver)
 
     def tearDown(self) -> None:
-        time.sleep(5)
-        self.base_page.close_brower()
+        # time.sleep(5)
+        # self.base_page.close_brower()
+        super().tearDown()
 
     def test_quit_brower(self):
+        action = Alawys_Action(self.driver)
+        action.login()
         self.quit_brower.quit()
         actal_result = self.driver.title
         print(actal_result)

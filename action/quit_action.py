@@ -1,14 +1,12 @@
 import time
 from main_function.main_page.main import MainPage
-from main_function.login_page.login import LoginPage
 from action.login_in import Alawys_Action
+from common.get_brower_driver import GetBrower
 
 
 class QiutLogin:
-    def __init__(self):
-        self.action = Alawys_Action()
-        self.action.login()
-        self.driver = self.action.driver
+    def __init__(self, driver):
+        self.driver = driver
         self.main_page = MainPage(self.driver)
 
     def quit(self):
@@ -19,5 +17,7 @@ class QiutLogin:
 
 
 if __name__ == '__main__':
-    QiutLogin().quit()
-
+    action = Alawys_Action(GetBrower().get_brower_driver())
+    driver = action.driver
+    action.login()
+    QiutLogin(driver).quit()

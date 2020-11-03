@@ -2,47 +2,40 @@ import unittest, os, time
 import HTMLTestRunner
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from common.get_brower_driver import GetBrower
-from common.base_page import BasePage
 from action.login_in import Alawys_Action
-from conf.read_conf import read_conf
 from log.log_function import logger
+from common.selenium_base_case import SeleniumBaseCase
 
 report_path = os.path.join(os.path.dirname(__file__), '../../report/report_%s.html') % (time.strftime('%Y%m%d_%H%M%S'))
 
 
-class Login_Test(unittest.TestCase):
+class Login_Test(SeleniumBaseCase):
     def setUp(self) -> None:
-        self.action = Alawys_Action()
-        self.driver = self.action.driver
-        self.base_page = BasePage(self.driver)
-        self.base_page.set_browner_max_windows()
+        super().setUp()
 
     def tearDown(self) -> None:
-        self.base_page.wait()
-        self.base_page.close_brower()
+        super().tearDown()
+        # self.base_page.wait()
+        # self.base_page.close_brower()
 
     def test_login_success(self):
-        self.action.login_success()
-        self.assertTrue(WebDriverWait(self.driver, 5).until(
-            EC.title_contains('禅道')), '登录失败')
+        action = Alawys_Action(self.driver)
+        main = action.login_success()
+        actual_reesult = main.get_myusername()
+        self.assertEqual(actual_reesult, '测试人员2', 'test_login_success用例执行失败')
 
     def test_login_faild(self):
-        action_alter = self.action.login_failed()
-        # self.assertTrue(WebDriverWait(self.driver, 5).until(EC.alert_is_present()),
-        #                 '测试用例失败，没有弹窗')
-        # alter = self.driver.switch_to.alert
-        # print(alter.text)
-        self.alter_text = self.base_page.get_alter_message()
-        self.assertEqual(action_alter,self.alter_text)
-        logger.err_info('登录失败，失败原因为：%s' % self.alter_text)
+        action_01 = Alawys_Action(self.driver)
+        action_alter = action_01.login_failed(self.driver)
+        print('actual:%s' % action_alter)
+        self.assertEqual(action_alter, '登录失败，请检查您的用户名或密码是否填写正确。', 'test_login_faild执行失败')
 
 
 if __name__ == '__main__':
-    # unittest.main()
-    test_suite = unittest.TestSuite()
-    test_suite.addTest(Login_Test('test_login_success'))
-    test_suite.addTest(Login_Test('test_login_faild'))
-    with open(report_path, 'w', encoding='utf-8') as file:
-        http_runner = HTMLTestRunner.HTMLTestRunner(stream=file, title='测试报告', description='测试描述')
-        http_runner.run(test_suite)
+    unittest.main()
+    # test_suite = unittest.TestSuite()
+    # test_suite.addTest(Login_Test('test_login_success'))
+    # test_suite.addTest(Login_Test('test_login_faild'))
+    # with open(report_path, 'w', encoding='utf-8') as file:
+    #     http_runner = HTMLTestRunner.HTMLTestRunner(stream=file, title='测试报告', description='测试描述')
+    #     http_runner.run(test_suite)

@@ -29,7 +29,6 @@ class BasePage:
     def close_brower(self):
         self.driver.quit()
 
-
     def set_browner_max_windows(self):
         self.driver.maximize_window()
 
@@ -97,7 +96,7 @@ class BasePage:
     def get_alter_message(self, time_ou=5, action='accept'):
         WebDriverWait(self.driver, time_ou).until(EC.alert_is_present())
         self.wait(5)
-        alter = self.driver.swith_to.alter
+        alter = self.driver.switch_to.alert
         alter_test = alter.text
         if action == 'accept':
             alter.accept()
