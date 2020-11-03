@@ -14,15 +14,15 @@ class Alawys_Action:
         # self.login_page.set_browner_max_windows()
 
     def login_success(self, username='test02', password='newdream123'):
-        self.login_page.input_username('test02')
-        self.login_page.input_password('newdream123')
+        self.login_page.input_username(username)
+        self.login_page.input_password(password)
         self.login_page.click_login()
         logger.log_info('成功登录')
         return MainPage(self.driver)
 
     def login_failed(self, username='test002', password='newdream123'):
-        self.login_page.input_username('test002')
-        self.login_page.input_password('newdream123')
+        self.login_page.input_username(username)
+        self.login_page.input_password(password)
         self.login_page.click_login()
         logger.err_info('用户名或者密码不正确')
         return self.login_page.get_alter_message()

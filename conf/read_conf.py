@@ -40,6 +40,9 @@ class ReadConf:
     def get_conf_log_level(self):
         return self.__get_conf_value('default', 'log_level')
 
+    def get_conf_execl_path(self):
+        return self.__get_conf_value('default', 'execl_path')
+
 
 read_conf = ReadConf()
 if __name__ == '__main__':

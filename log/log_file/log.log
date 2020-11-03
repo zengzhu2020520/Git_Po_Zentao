@@ -751,3 +751,81 @@ from disconnected: Unable to receive message from renderer
 2020-11-03 16:08:53,849-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
 
 2020-11-03 16:08:57,777-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 21:37:18,036-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 21:37:18,037-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:37:28,493-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:37:38,132-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 21:40:00,825-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 21:40:00,826-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:40:14,251-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 21:40:17,305-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:40:30,863-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 21:40:34,233-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 21:40:41,315-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 21:40:41,316-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:40:54,867-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 21:40:58,953-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:41:12,378-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 21:41:16,689-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 21:50:57,184-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 21:50:57,185-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:51:12,431-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 21:51:16,997-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:51:30,003-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 21:51:32,738-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 21:52:04,655-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 21:52:04,655-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:52:12,463-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 21:52:12,605-log.log_function-INFO-用户输入框输入成功
+2020-11-03 21:52:12,606-log.log_function-INFO-正确输入用户名test002
+2020-11-03 21:52:12,654-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 21:52:12,870-log.log_function-INFO-密码输入框输入成功
+2020-11-03 21:52:12,870-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 21:52:12,921-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 21:52:13,026-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 21:52:13,026-log.log_function-INFO-正确登录
+2020-11-03 21:52:13,026-log.log_function-ERROR-用户名或者密码不正确
+2020-11-03 21:52:22,289-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 21:52:30,349-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 21:52:30,570-log.log_function-INFO-用户输入框输入成功
+2020-11-03 21:52:30,570-log.log_function-INFO-正确输入用户名test01
+2020-11-03 21:52:30,618-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 21:52:30,907-log.log_function-INFO-密码输入框输入成功
+2020-11-03 21:52:30,907-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 21:52:30,967-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 21:52:31,127-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 21:52:31,127-log.log_function-INFO-正确登录
+2020-11-03 21:52:31,127-log.log_function-INFO-成功登录
+2020-11-03 21:52:32,165-log.log_function-INFO-元素我的信息定位成功
+2020-11-03 21:52:34,461-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 22:01:13,785-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 22:01:13,785-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 22:01:22,008-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 22:01:22,157-log.log_function-INFO-用户输入框输入成功
+2020-11-03 22:01:22,157-log.log_function-INFO-正确输入用户名test001
+2020-11-03 22:01:22,184-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 22:01:22,305-log.log_function-INFO-密码输入框输入成功
+2020-11-03 22:01:22,306-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 22:01:22,404-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 22:01:22,503-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 22:01:22,503-log.log_function-INFO-正确登录
+2020-11-03 22:01:22,503-log.log_function-ERROR-用户名或者密码不正确
+2020-11-03 22:01:31,621-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 22:01:39,961-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 22:01:40,233-log.log_function-INFO-用户输入框输入成功
+2020-11-03 22:01:40,233-log.log_function-INFO-正确输入用户名test01
+2020-11-03 22:01:40,280-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 22:01:40,469-log.log_function-INFO-密码输入框输入成功
+2020-11-03 22:01:40,469-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 22:01:40,571-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 22:01:40,838-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 22:01:40,839-log.log_function-INFO-正确登录
+2020-11-03 22:01:40,839-log.log_function-INFO-成功登录
+2020-11-03 22:01:41,899-log.log_function-INFO-元素我的信息定位成功
+2020-11-03 22:01:44,168-log.log_function-INFO-===============用例执行完成=============
