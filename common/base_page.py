@@ -42,22 +42,31 @@ class BasePage:
         time.sleep(time_out)
 
     def find_elements(self, ele_infos):
-        ele_locate_type = ele_infos['locate_type']
-        ele_locate_value = ele_infos['locate_value']
-        ele_time_out = ele_infos['time_out']
-        if ele_locate_type == 'id':
-            locate_type = By.ID
-        elif ele_locate_type == 'xpath':
-            locate_type = By.XPATH
-        elif ele_locate_type == 'name':
-            locate_type = By.NAME
-        elif ele_locate_type == 'class':
-            locate_type = By.CSS_SELECTOR
-        element = WebDriverWait(self.driver, 5).until(
-            lambda x: x.find_element(locate_type, ele_locate_value))
-        if element:
-            logger.log_info('元素%s定位成功' % ele_infos['elemen_name'])
-        return element
+        """
+        根据提供的元素参数信息进行元素识别
+        :param ele_infos: 元素信息，字典类型{}
+        :return: element对象
+        """
+        try:
+            ele_locate_type = ele_infos['locate_type']
+            ele_locate_value = ele_infos['locate_value']
+            ele_time_out = ele_infos['time_out']
+            if ele_locate_type == 'id':
+                locate_type = By.ID
+            elif ele_locate_type == 'xpath':
+                locate_type = By.XPATH
+            elif ele_locate_type == 'name':
+                locate_type = By.NAME
+            elif ele_locate_type == 'class':
+                locate_type = By.CSS_SELECTOR
+            element = WebDriverWait(self.driver, 5).until(
+                lambda x: x.find_element(locate_type, ele_locate_value))
+            if element:
+                logger.log_info('元素%s定位成功' % ele_infos['elemen_name'])
+            return element
+        except Exception as e:
+            logger.err_info('[元素%s]识别失败,%s' % (ele_infos['elemen_name'], e.__str__()))
+            self.scream_hot()
 
     def click(self, ele_infos):
         ele = self.find_elements(ele_infos)

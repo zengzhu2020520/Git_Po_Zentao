@@ -1,6 +1,7 @@
 import os
 from selenium import webdriver
 from conf.read_conf import ReadConf
+from log.log_function import logger
 
 conf_driver_path = ReadConf().get_conf_driver_path()
 driver_path = os.path.join(os.path.dirname(__file__), '..', conf_driver_path)
@@ -11,10 +12,13 @@ class GetBrower:
         self.driver_name = driver_name
         self.driver_path1 = driver_path1
 
-    def get_brower_driver(self):
-        if self.driver_name == 'chrome':
-            driver = self.__get_chrome_driver()
-            return driver
+    try:
+        def get_brower_driver(self):
+            if self.driver_name == 'chrome':
+                driver = self.__get_chrome_driver()
+                return driver
+    except Exception as e:
+        logger.err_info('获取浏览器驱动失败，原因为：%s' % e.__str__())
 
     def __get_chrome_driver(self):
         chrome_options = webdriver.ChromeOptions()

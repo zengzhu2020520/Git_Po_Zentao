@@ -655,3 +655,99 @@
 2020-11-03 11:49:23,814-log.log_function-INFO-使用默认账号登录成功
 2020-11-03 11:49:25,958-log.log_function-INFO-元素我的信息定位成功
 2020-11-03 11:49:31,097-log.log_function-INFO-元素退出按钮定位成功
+2020-11-03 14:50:06,383-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 14:50:06,451-log.log_function-INFO-用户输入框输入成功
+2020-11-03 14:50:06,451-log.log_function-INFO-正确输入用户名test002
+2020-11-03 14:50:06,473-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 14:50:06,579-log.log_function-INFO-密码输入框输入成功
+2020-11-03 14:50:06,579-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 14:50:06,603-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 14:50:06,683-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 14:50:06,684-log.log_function-INFO-正确登录
+2020-11-03 14:50:06,684-log.log_function-ERROR-用户名或者密码不正确
+2020-11-03 14:50:41,012-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 14:50:41,086-log.log_function-INFO-用户输入框输入成功
+2020-11-03 14:50:41,086-log.log_function-INFO-正确输入用户名test02
+2020-11-03 14:50:41,105-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 14:50:41,202-log.log_function-INFO-密码输入框输入成功
+2020-11-03 14:50:41,202-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 14:50:41,224-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 14:50:41,306-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 14:50:41,306-log.log_function-INFO-正确登录
+2020-11-03 14:50:41,306-log.log_function-INFO-成功登录
+2020-11-03 14:50:45,159-log.log_function-INFO-元素我的信息定位成功
+2020-11-03 15:02:30,434-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 15:02:30,500-log.log_function-INFO-用户输入框输入成功
+2020-11-03 15:02:30,501-log.log_function-INFO-正确输入用户名test002
+2020-11-03 15:02:30,519-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 15:02:30,628-log.log_function-INFO-密码输入框输入成功
+2020-11-03 15:02:30,628-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 15:02:30,651-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 15:02:30,722-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 15:02:30,723-log.log_function-INFO-正确登录
+2020-11-03 15:02:30,723-log.log_function-ERROR-用户名或者密码不正确
+2020-11-03 15:02:46,201-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 15:02:46,269-log.log_function-INFO-用户输入框输入成功
+2020-11-03 15:02:46,269-log.log_function-INFO-正确输入用户名test02
+2020-11-03 15:02:46,286-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 15:02:46,395-log.log_function-INFO-密码输入框输入成功
+2020-11-03 15:02:46,396-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 15:02:46,416-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 15:02:46,491-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 15:02:46,491-log.log_function-INFO-正确登录
+2020-11-03 15:02:46,492-log.log_function-INFO-成功登录
+2020-11-03 15:02:48,164-log.log_function-INFO-元素我的信息定位成功
+2020-11-03 15:57:42,440-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 15:57:42,441-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 15:58:28,890-log.log_function-ERROR-打开浏览器失败，浏览器地址为：http://48.107.178.45/zentao/www/index.php?m=user&f=login,具体原因为：Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=86.0.4240.111)
+
+2020-11-03 15:58:50,126-log.log_function-ERROR-[元素用户输入框]识别失败
+2020-11-03 15:58:53,428-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 15:59:11,518-log.log_function-ERROR-打开浏览器失败，浏览器地址为：http://48.107.178.45/zentao/www/index.php?m=user&f=login,具体原因为：Message: unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=86.0.4240.111)
+
+2020-11-03 15:59:15,612-log.log_function-ERROR-[元素用户输入框]识别失败
+2020-11-03 15:59:17,779-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 16:02:17,910-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 16:02:17,911-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 16:02:31,852-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 16:02:34,110-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 16:02:48,498-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 16:02:50,959-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 16:07:26,567-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 16:07:26,569-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 16:07:35,686-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 16:07:35,921-log.log_function-INFO-用户输入框输入成功
+2020-11-03 16:07:35,921-log.log_function-INFO-正确输入用户名test002
+2020-11-03 16:07:35,991-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 16:07:36,194-log.log_function-INFO-密码输入框输入成功
+2020-11-03 16:07:36,194-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 16:07:36,219-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 16:07:36,370-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 16:07:36,371-log.log_function-INFO-正确登录
+2020-11-03 16:07:36,371-log.log_function-ERROR-用户名或者密码不正确
+2020-11-03 16:07:44,389-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 16:07:52,209-log.log_function-INFO-元素用户输入框定位成功
+2020-11-03 16:07:52,369-log.log_function-INFO-用户输入框输入成功
+2020-11-03 16:07:52,370-log.log_function-INFO-正确输入用户名test02
+2020-11-03 16:07:52,520-log.log_function-INFO-元素密码输入框定位成功
+2020-11-03 16:07:52,876-log.log_function-INFO-密码输入框输入成功
+2020-11-03 16:07:52,876-log.log_function-INFO-正确输入用户名newdream123
+2020-11-03 16:07:52,963-log.log_function-INFO-元素登录按钮定位成功
+2020-11-03 16:07:53,167-log.log_function-INFO-成功点击登录按钮这个元素
+2020-11-03 16:07:53,167-log.log_function-INFO-正确登录
+2020-11-03 16:07:53,167-log.log_function-INFO-成功登录
+2020-11-03 16:07:54,386-log.log_function-INFO-元素我的信息定位成功
+2020-11-03 16:07:56,616-log.log_function-INFO-===============用例执行完成=============
+2020-11-03 16:08:23,950-log.log_function-INFO-===============开始执行setupclass=============
+2020-11-03 16:08:23,951-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 16:08:37,365-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 16:08:40,143-log.log_function-INFO-===============开始执行测试用例=============
+2020-11-03 16:08:53,849-log.log_function-ERROR-[元素用户输入框]识别失败,Message: 
+
+2020-11-03 16:08:57,777-log.log_function-INFO-===============用例执行完成=============

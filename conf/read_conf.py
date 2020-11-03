@@ -37,6 +37,9 @@ class ReadConf:
     def get_conf_password(self):
         return self.__get_conf_value('default', 'password')
 
+    def get_conf_log_level(self):
+        return self.__get_conf_value('default', 'log_level')
+
 
 read_conf = ReadConf()
 if __name__ == '__main__':
